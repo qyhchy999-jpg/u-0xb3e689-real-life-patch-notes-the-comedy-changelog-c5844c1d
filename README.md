@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/qyhchy999-jpg/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/rank.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
 [![reward](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/qyhchy999-jpg/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/reward.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
 
-One line, 150 characters: a software patch note for a bug in real life — knees that creak on cold mornings, filed like a real changelog entry. "No warranty, no rollback, and the user refuses to restart" is the joke: every support ticket about the human body ends the same way.
+One line, 143 characters: a software patch note for a bug in real life — the brain replays embarrassing moments from 2009 at 3 a.m., filed like a real changelog entry. "No delete key for memories" is the mechanism, and "Status: won't fix" is the closer: the human body ships without a memory delete key, and the ticket is closed as unfixable by design.
 
 ## Entry
 
@@ -22,4 +22,4 @@ Then check the output is UTF-8 text of 1 to 160 characters, and run it twice to 
 
 MIT — see [LICENSE](LICENSE).
 
-<!-- Second pass: knees, not back — a creak has a sound, and the user refusing to restart is the closer. -->
+<!-- Second pass: the 3 a.m. replay, not the knees — the replay is universal, and "won't fix" is the closer. -->

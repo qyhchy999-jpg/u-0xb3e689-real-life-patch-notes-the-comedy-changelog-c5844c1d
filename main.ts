@@ -7,18 +7,22 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The patch note: knees creaking on cold mornings, filed like a real bug.
-// "No warranty, no rollback, and the user refuses to restart" is the joke:
-// every support ticket about the human body ends the same way — the user
-// will not reboot, and there is no older version to roll back to. The
-// version number and the "Root cause" phrasing sell it as a genuine
-// changelog entry rather than a joke wearing a changelog costume.
-const LINE = "v3.0.2: fixed a bug where knees creaked on cold mornings. Root cause: thirty years of wear; no warranty, no rollback, and the user refuses to restart.";
+// The patch note: the brain replays embarrassing moments from 2009 at
+// 3 a.m., filed like a real bug. "No delete key for memories" is the
+// mechanism, and "Status: won't fix" is authentic changelog language:
+// the human body ships without a memory delete key, and the support
+// team closes the ticket as won't-fix because the bug is unfixable
+// by design. The version number and "Root cause" phrasing sell it as
+// a genuine changelog entry rather than a joke wearing a changelog
+// costume.
+const LINE = "v4.2.0: fixed a bug where the brain replays embarrassing moments from 2009 at 3 a.m. Root cause: no delete key for memories. Status: won't fix.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), LINE + "\n", "utf8");
 
-// Second pass: kept the knees, not the back — knees creak, backs seize,
-// and a creak is funnier because it has a sound. The user refusing to
-// restart is the closer; without it the note is just a complaint.
+// Second pass: kept the 3 a.m. replay, not the knees — the replay is
+// universal, and "won't fix" is the closer; without it the note is
+// just a complaint filed against the wrong department. The year 2009
+// matters: it has to be long enough ago to be embarrassing, recent
+// enough to still sting at 3 a.m.
